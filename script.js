@@ -1,4 +1,8 @@
 function operating(ab) {
+// so the given number should be positive 
+  if(ab < 0){
+        throw new Error("negative number not define");
+   }
   let numbers = ab.toString().split("");
   let result = 0;
 
