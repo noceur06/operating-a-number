@@ -13,4 +13,6 @@ function operating(ab) {
   return result;
 }
 
-console.log(operating(88));
+console.log(operating(23));
+console.log(operating(456));
+console.log(operating(7394));
