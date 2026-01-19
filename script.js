@@ -6,6 +6,8 @@ function operating(ab) {
   let numbers = ab.toString().split("");
   let result = 0;
 
+//for of loop so the operation check and happen on each number
+
   for (let number of numbers) {
     result += Number(number);
   }
